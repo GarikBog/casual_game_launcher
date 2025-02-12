@@ -131,6 +131,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="buttons.cpp" />
     <ClCompile Include="game.cpp" />
     <ClCompile Include="launcher.cpp" />
     <ClCompile Include="log.cpp" />
@@ -151,6 +152,7 @@
     <None Include="sfml-window-d-2.dll" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="buttons.hpp" />
     <ClInclude Include="game.hpp" />
     <ClInclude Include="launcher.hpp" />
     <ClInclude Include="log.hpp" />

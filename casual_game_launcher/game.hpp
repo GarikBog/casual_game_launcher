@@ -30,4 +30,19 @@ public:
 
 	virtual ~Game();
 
+	
+};
+
+
+
+class TestGame: public Game {
+private:
+
+	std::string name = "Test";
+
+public:
+
+	void start() override;
+
+	TestGame(unsigned int height);
 };
