@@ -41,7 +41,7 @@ int main()
                 window.close();
             if (event.type == sf::Event::MouseButtonReleased) {
                 button.click(sf::Mouse::getPosition(window));
-                if (log.get_request().first == "BUTTON_PRESSD") {
+                if (log.get_request().first == "BUTTON_PRESSED") {
                     window.close();
                     button.start_game();
                 }
