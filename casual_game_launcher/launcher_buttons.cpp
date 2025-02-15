@@ -1,6 +1,6 @@
-#ifndef BUTTONS
+#ifndef LAUNCHER_BUTTONS
 #include "launcher_buttons.hpp"
-#define BUTTONS
+#define LAUNCHER_BUTTONS
 #endif // !BUTTONS
 
 // GAME BUTTON

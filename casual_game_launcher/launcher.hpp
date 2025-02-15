@@ -23,6 +23,10 @@
 #endif // !VECTOR
 
 
+#ifndef LAUNCHER_BUTTONS
+#include "launcher_buttons.hpp"
+#define LAUNCHER_BUTTONS
+#endif // !BUTTONS
 
 
 class GameLauncher : public Game {
@@ -30,12 +34,16 @@ class GameLauncher : public Game {
 private:
 
 	std::string name = "GameLauncher";
-
 	std::vector<Game* > games;
+
+	Log log;
+	CloseButton* close;
+	NextPageButton* next_button;
+	PreviousPageButton* previous_button;
 
 public:
 
 
 
-
+	GameLauncher(unsigned int height);
 };

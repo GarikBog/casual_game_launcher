@@ -42,6 +42,7 @@ class CloseButton : public ClickableObject {
 public:
 
 	void click(sf::Vector2i mouse_pos);
+public:
 
 	CloseButton(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log);
 
@@ -54,6 +55,7 @@ private:
 
 	void click(sf::Vector2i mouse_pos);
 
+public:
 	NextPageButton(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log);
 
 };
@@ -66,6 +68,7 @@ private:
 
 	void click(sf::Vector2i mouse_pos);
 
+public:
 	class PreviousPageButton(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log);
 
 };
