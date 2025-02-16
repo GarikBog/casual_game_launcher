@@ -41,9 +41,10 @@ private:
 	NextPageButton* next_button;
 	PreviousPageButton* previous_button;
 
+	void draw(sf::RenderWindow& window);
 public:
 
-
+	void start();
 
 	GameLauncher(unsigned int height);
 };

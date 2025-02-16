@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\launcher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher_buttons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\launcher_buttons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher_buttons.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\launcher_buttons.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -19,8 +15,20 @@
       "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\launcher.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher_buttons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\launcher_buttons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\objects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\objects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\log.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -29,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\objects.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\objects.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\objects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\objects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -74,20 +74,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "launcher_buttons.cpp",
               "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher_buttons.cpp",
               "RelativeDocumentMoniker": "casual_game_launcher\\launcher_buttons.cpp",
               "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher_buttons.cpp",
               "RelativeToolTip": "casual_game_launcher\\launcher_buttons.cpp",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-12T09:45:44.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T09:45:44.8Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "log.hpp",
               "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\log.hpp",
               "RelativeDocumentMoniker": "casual_game_launcher\\log.hpp",
@@ -99,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "objects.hpp",
               "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\objects.hpp",
               "RelativeDocumentMoniker": "casual_game_launcher\\objects.hpp",
@@ -111,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "game.hpp",
               "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\game.hpp",
               "RelativeDocumentMoniker": "casual_game_launcher\\game.hpp",
@@ -119,34 +118,31 @@
               "RelativeToolTip": "casual_game_launcher\\game.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-12T09:42:28.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T09:42:28.055Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "launcher_buttons.hpp",
               "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher_buttons.hpp",
               "RelativeDocumentMoniker": "casual_game_launcher\\launcher_buttons.hpp",
               "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher_buttons.hpp",
               "RelativeToolTip": "casual_game_launcher\\launcher_buttons.hpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-12T09:42:02.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T09:42:02.544Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "launcher.hpp",
               "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher.hpp",
               "RelativeDocumentMoniker": "casual_game_launcher\\launcher.hpp",
               "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher.hpp",
               "RelativeToolTip": "casual_game_launcher\\launcher.hpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAB8AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-10T14:24:16.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T14:24:16.144Z"
             },
             {
               "$type": "Document",
@@ -156,7 +152,7 @@
               "RelativeDocumentMoniker": "casual_game_launcher\\launcher.cpp",
               "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher.cpp",
               "RelativeToolTip": "casual_game_launcher\\launcher.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADkAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-10T14:24:04.943Z",
               "EditorCaption": ""
@@ -175,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "objects.cpp",
               "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\objects.cpp",
               "RelativeDocumentMoniker": "casual_game_launcher\\objects.cpp",
@@ -187,13 +183,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\main.cpp",
               "RelativeDocumentMoniker": "casual_game_launcher\\main.cpp",
               "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\main.cpp",
               "RelativeToolTip": "casual_game_launcher\\main.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACsAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-10T14:22:05.05Z"
             }
