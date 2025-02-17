@@ -36,6 +36,7 @@ private:
 	std::string name = "GameLauncher";
 	std::vector<Game* > games;
 
+	int page = 0;
 	Log log;
 	CloseButton* close;
 	NextPageButton* next_button;
