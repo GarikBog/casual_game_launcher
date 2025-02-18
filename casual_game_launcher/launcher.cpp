@@ -3,6 +3,10 @@
 #define LAUNCHER
 #endif // !LAUNCHER
 
+#ifndef IOSTREAM
+#include<iostream>
+#define IOSTREAM
+#endif // !IOSTREAM
 
 void GameLauncher::draw(sf::RenderWindow& window)
 {
@@ -10,6 +14,7 @@ void GameLauncher::draw(sf::RenderWindow& window)
     close->draw(window);
     next_button->draw(window);
     previous_button->draw(window);
+    select_panel->draw(window);
 }
 
 void GameLauncher::start()
@@ -24,7 +29,13 @@ void GameLauncher::start()
             if (event.type == sf::Event::Closed)
                 window->close();
             if (event.type == sf::Event::MouseButtonReleased) {
-                if (log.get_request().first == "BUTTON_PRESSED") {
+                sf::Vector2i mouse_pos = sf::Mouse::getPosition(*window);
+                for (int i = 0; i < buttons.size(); ++i) {
+                    buttons[i]->click(mouse_pos);
+                }
+                if (log.get_request().first == "CLOSE") {
+
+                    std::cout << "CLOSING";
                     window->close();          
                 }
             }
@@ -48,10 +59,11 @@ GameLauncher::GameLauncher(unsigned int height)
         indent_height_close_button = window_height / 30,
         height_select_panel = window_height / 1.44,
         height_change_page_button = window_height / 2.14,
+        width_slect_panel = window_width / 1.60,
         width_change_page_button = window_width / 5.83,
         width_close_button = window_width / 8.75,
         height_close_button = window_height / 7.5,
-        indent_width_select_panel = indent_height_change_page_button + indent_width_change_page_button + window_width / 75,
+        indent_width_select_panel = window_width / 5.3,
         indent_height_select_panel = window_height / 6.8;
         
 
@@ -72,4 +84,12 @@ GameLauncher::GameLauncher(unsigned int height)
 		{ 165,165 },
 		{ width_close_button,height_close_button },
 		"close.png", log);
+
+    select_panel = new SelectPanel{ {indent_width_select_panel,indent_height_select_panel},
+        {100,100},
+        {width_slect_panel,height_select_panel},
+        "test",
+        log};
+
+    buttons = { close,next_button,previous_button };
 }

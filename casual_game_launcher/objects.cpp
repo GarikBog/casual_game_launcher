@@ -176,12 +176,18 @@ bool ClickableObject::click(sf::Vector2i mouse_pos)
 
 ClickableObject::ClickableObject(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file,Log& log): 
 	Object(pos,size,scale,texture_file),
-	log(log)
+	log(log),
+	test(2)
 {
 	
 }
 //ClickableObject
 
+
+int ClickableObject::get_test()
+{
+	return test;
+}
 
 //CounterObject
 void CounterObject::set_pos(std::pair<float, float> pos)

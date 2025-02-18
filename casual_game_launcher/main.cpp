@@ -20,11 +20,10 @@
 #define LAUNCHER
 #endif // !LAUNCHER
 
-
 int main()
 {
 
-	GameLauncher launcher(1500);
+	GameLauncher launcher(1450);
 
 	launcher.start();
 }

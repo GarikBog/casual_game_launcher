@@ -28,6 +28,10 @@
 #define LAUNCHER_BUTTONS
 #endif // !BUTTONS
 
+#ifndef SELECT_PANEL
+#include "select_panel.hpp"
+#define SELECT_PANEL
+#endif // !SELECT_PANEL
 
 class GameLauncher : public Game {
 
@@ -37,10 +41,14 @@ private:
 	std::vector<Game* > games;
 
 	int page = 0;
+	int max_page = 2;
 	Log log;
 	CloseButton* close;
 	NextPageButton* next_button;
 	PreviousPageButton* previous_button;
+	SelectPanel* select_panel;
+
+	std::vector<ClickableObject* > buttons;
 
 	void draw(sf::RenderWindow& window);
 public:
