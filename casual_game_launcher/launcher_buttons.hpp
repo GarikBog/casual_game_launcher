@@ -27,7 +27,7 @@ private:
 
 public:
 
-	void click(sf::Vector2i mouse_pos);
+	bool click(sf::Vector2i mouse_pos) override;
 
 	void start_game();
 	GameButton(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log,Game& game);
@@ -39,8 +39,8 @@ public:
 class CloseButton : public ClickableObject {
 
 public:
-	void click(sf::Vector2i mouse_pos);
-public:
+	bool click(sf::Vector2i mouse_pos) override;
+
 	CloseButton(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log);
 
 };
@@ -48,11 +48,10 @@ public:
 
 class NextPageButton : public ClickableObject {
 
-private:
-
-	void click(sf::Vector2i mouse_pos);
 
 public:
+	bool click(sf::Vector2i mouse_pos) override;
+
 	NextPageButton(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log);
 
 };
@@ -61,11 +60,10 @@ public:
 class PreviousPageButton : public ClickableObject {
 
 
-private:
-
-	void click(sf::Vector2i mouse_pos);
 
 public:
+	bool click(sf::Vector2i mouse_pos) override;
+
 	class PreviousPageButton(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log);
 
 };

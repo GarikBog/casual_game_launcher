@@ -1,2 +1,133 @@
-﻿  main.cpp
+﻿  launcher.cpp
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(34,101): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(34,64): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(93,31): warning C4244: =: преобразование "double" в "unsigned int", возможна потеря данных
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(96,42): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(99,29): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(100,35): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(101,27): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(102,34): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(103,28): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(104,29): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(105,35): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(106,36): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,16): warning C4244: инициализация: преобразование "const _Ty1" в "_Ty1", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,16): warning C4244:             _Ty1=int
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,16): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,16): warning C4244:         ]
+  (компиляция исходного файла "launcher.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,16):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(25,34):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<float,float>::pair<int,int,0>(const std::pair<int,int> &) noexcept"
+              C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(25,33):
+              см. первую ссылку на std::pair<float,float>::pair "GameLauncher::update"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,38): warning C4244: инициализация: преобразование "const _Ty2" в "_Ty2", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,38): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,38): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,38): warning C4244:             _Ty2=int
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,38): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,38): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,38): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,38): warning C4244:             _Ty2=float
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,38): warning C4244:         ]
+  (компиляция исходного файла "launcher.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244: инициализация: преобразование "_Ty" в "_Ty1", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:             _Ty=unsigned int
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         ]
+  (компиляция исходного файла "launcher.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(28,34):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<float,float>::pair<unsigned int,double,0>(_Other1 &&,_Other2 &&) noexcept"
+          with
+          [
+              _Other1=unsigned int,
+              _Other2=double
+          ]
+              C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(28,33):
+              см. первую ссылку на std::pair<float,float>::pair "GameLauncher::update"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244: инициализация: преобразование "_Ty" в "_Ty2", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:             _Ty2=float
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         ]
+  (компиляция исходного файла "launcher.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244: инициализация: преобразование "_Ty" в "_Ty1", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         ]
+  (компиляция исходного файла "launcher.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(110,26):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept"
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+              C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(110,13):
+              см. первую ссылку на std::pair<float,float>::pair "GameLauncher::GameLauncher"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244: инициализация: преобразование "_Ty" в "_Ty2", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:             _Ty2=float
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         ]
+  (компиляция исходного файла "launcher.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244: инициализация: преобразование "int" в "_Ty1", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         ]
+  (компиляция исходного файла "launcher.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(112,43):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<float,float>::pair<int&,int&,0>(_Other1,_Other2) noexcept"
+          with
+          [
+              _Other1=int &,
+              _Other2=int &
+          ]
+              C:\programming\cpp\casual_game_launcher\casual_game_launcher\launcher.cpp(112,18):
+              см. первую ссылку на std::pair<float,float>::pair "GameLauncher::GameLauncher"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244: инициализация: преобразование "int" в "_Ty2", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:             _Ty2=float
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         ]
+  (компиляция исходного файла "launcher.cpp")
+  
   casual_game_launcher.vcxproj -> C:\programming\cpp\casual_game_launcher\x64\Debug\casual_game_launcher.exe

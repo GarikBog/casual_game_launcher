@@ -39,9 +39,9 @@ private:
 
 	std::string name = "GameLauncher";
 	std::vector<Game* > games;
+	std::pair<int, int> hidden_pos;
 
-	int page = 0;
-	int max_page = 2;
+	int page = 0,max_page = 2;
 	Log log;
 	CloseButton* close;
 	NextPageButton* next_button;
@@ -51,6 +51,9 @@ private:
 	std::vector<ClickableObject* > buttons;
 
 	void draw(sf::RenderWindow& window);
+	void update();
+	void process_log();
+	void process_request(Request request);
 public:
 
 	void start();

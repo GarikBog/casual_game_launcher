@@ -3,12 +3,18 @@
 #define LAUNCHER_BUTTONS
 #endif // !BUTTONS
 
+#ifndef IOSTREAM
+#include<iostream>
+#define IOSTREAM
+#endif // !IOSTREAM
+
 // GAME BUTTON
-void GameButton::click(sf::Vector2i mouse_pos)
+bool GameButton::click(sf::Vector2i mouse_pos)
 {
-	if (!ClickableObject::click(mouse_pos)) return;
+	if (!ClickableObject::click(mouse_pos)) return false;
 
 	log.add({ "BUTTON_PRESSED" });
+	return true;
 }
 
 void GameButton::start_game()
@@ -26,11 +32,12 @@ GameButton::GameButton(std::pair<float, float> pos, std::pair<int, int> size, st
 
 
 // CLOSE BUTTON
-void CloseButton::click(sf::Vector2i mouse_pos)
+bool CloseButton::click(sf::Vector2i mouse_pos)
 {
-	if (!ClickableObject::click(mouse_pos)) return;
+	if (!ClickableObject::click(mouse_pos))  return false;
 
 	log.add({ "CLOSE" });
+	return true;
 }
 
 
@@ -44,11 +51,12 @@ CloseButton::CloseButton(std::pair<float, float> pos, std::pair<int, int> size, 
 
 
 // NEXT PAGE BUTTON
-void NextPageButton::click(sf::Vector2i mouse_pos)
+bool NextPageButton::click(sf::Vector2i mouse_pos)
 {
-	if (!ClickableObject::click(mouse_pos)) return;
+	if (!ClickableObject::click(mouse_pos))  return false;
 
 	log.add({ "NEXT_PAGE" });
+	return true;
 }
 NextPageButton::NextPageButton(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log) :
 	ClickableObject(pos, size, scale, texture_file, log)
@@ -57,11 +65,13 @@ NextPageButton::NextPageButton(std::pair<float, float> pos, std::pair<int, int> 
 
 
 //PREVIOUS PAGE BUTTON
-void PreviousPageButton::click(sf::Vector2i mouse_pos)
+bool PreviousPageButton::click(sf::Vector2i mouse_pos)
 {
-	if (!ClickableObject::click(mouse_pos)) return;
+	if (!ClickableObject::click(mouse_pos)) return false;
 
 	log.add({ "PREVIOUS_PAGE" });
+
+	return true;
 }
 PreviousPageButton::PreviousPageButton(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log) :
 	ClickableObject(pos, size, scale, texture_file, log)

@@ -10,6 +10,8 @@
 
 void GameLauncher::draw(sf::RenderWindow& window)
 {
+    update();
+
     background->draw(window);
     close->draw(window);
     next_button->draw(window);
@@ -17,9 +19,49 @@ void GameLauncher::draw(sf::RenderWindow& window)
     select_panel->draw(window);
 }
 
+void GameLauncher::update()
+{
+    if (page == 0) {
+        previous_button->set_pos(hidden_pos);
+    }
+    else {
+        previous_button->set_pos({ window_width / 175 , window_height / 3.75 });
+    }
+    if (page == max_page) {
+        next_button->set_pos(hidden_pos);
+    }
+    else {
+        next_button->set_pos(window_width - window_width / 175 - window_width / 5.83, window_height / 3.75);
+    }
+}
+
+void GameLauncher::process_log()
+{
+    Request next = log.get_request();
+    while (next.data().first != "EMPTY")
+    {
+        process_request(next);
+        next = log.get_request();
+
+    }
+}
+
+void GameLauncher::process_request(Request request)
+{
+    if (request.data().first == "CLOSE") {
+        window->close();
+    }
+    if (request.data().first == "NEXT_PAGE") {
+        ++page;
+    }
+    if (request.data().first == "PREVIOUS_PAGE") {
+        --page;
+    }
+}
+
 void GameLauncher::start()
 {
-    window = new sf::RenderWindow(sf::VideoMode(window_width, window_height), name);
+    window = new sf::RenderWindow(sf::VideoMode(window_width, window_height), name,sf::Style::None);
     while (window->isOpen())
     {
         sf::Event event;
@@ -30,14 +72,11 @@ void GameLauncher::start()
                 window->close();
             if (event.type == sf::Event::MouseButtonReleased) {
                 sf::Vector2i mouse_pos = sf::Mouse::getPosition(*window);
+                std::cout << "\nClick";
                 for (int i = 0; i < buttons.size(); ++i) {
                     buttons[i]->click(mouse_pos);
                 }
-                if (log.get_request().first == "CLOSE") {
-
-                    std::cout << "CLOSING";
-                    window->close();          
-                }
+                process_log();
             }
         }
         
@@ -66,7 +105,7 @@ GameLauncher::GameLauncher(unsigned int height)
         indent_width_select_panel = window_width / 5.3,
         indent_height_select_panel = window_height / 6.8;
         
-
+    hidden_pos = { window_width + 1,window_height + 1 };
 
 	background = new Object({ 0,0 }, { 1750,1500 }, { window_width,window_height }, "Tak_nado.png");
 

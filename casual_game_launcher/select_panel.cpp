@@ -16,11 +16,12 @@ void SelectPanel::draw(sf::RenderWindow& window)
 
 }
 
-void SelectPanel::click(sf::Vector2i mouse_pos)
+bool SelectPanel::click(sf::Vector2i mouse_pos)
 {
-	if (ClickableObject::click(mouse_pos)) {
-		std::cout << "Click";
-	}
+	if (!ClickableObject::click(mouse_pos)) return false;
+	log.add({ "CLOSE" });
+
+	return true;
 }
 
 SelectPanel::SelectPanel(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log):

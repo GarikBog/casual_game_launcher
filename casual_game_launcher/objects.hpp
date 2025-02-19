@@ -71,9 +71,9 @@ protected:
 	Log& log;
 
 public:
+	virtual bool click(sf::Vector2i mouse_pos);
 
 	int get_test();
-	bool click(sf::Vector2i mouse_pos);
 
 	ClickableObject(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file,Log& log);
 };
