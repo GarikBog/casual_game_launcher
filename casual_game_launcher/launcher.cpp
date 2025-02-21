@@ -8,6 +8,22 @@
 #define IOSTREAM
 #endif // !IOSTREAM
 
+void GameLauncher::next_page()
+{
+    if (page < max_page) {
+        ++page;
+        select_panel->next_page();
+    }
+}
+
+void GameLauncher::previous_page()
+{
+    if (page > 0) {
+        --page;
+        select_panel->previous_page();
+    }
+}
+
 void GameLauncher::draw(sf::RenderWindow& window)
 {
     update();
@@ -52,10 +68,10 @@ void GameLauncher::process_request(Request request)
         window->close();
     }
     if (request.data().first == "NEXT_PAGE") {
-        ++page;
+        next_page();
     }
     if (request.data().first == "PREVIOUS_PAGE") {
-        --page;
+        previous_page();
     }
 }
 
@@ -128,7 +144,9 @@ GameLauncher::GameLauncher(unsigned int height)
         {100,100},
         {width_slect_panel,height_select_panel},
         "test",
-        log};
+        log,
+        hidden_pos};
 
     buttons = { close,next_button,previous_button };
 }
+

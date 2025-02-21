@@ -19,10 +19,10 @@ bool GameButton::click(sf::Vector2i mouse_pos)
 
 void GameButton::start_game()
 {
-	game.start();
+	game->start();
 }
 
-GameButton::GameButton(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log, Game& game) :
+GameButton::GameButton(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log, Game* game) :
 	ClickableObject(pos, size, scale, texture_file, log),
 	game(game)
 {}

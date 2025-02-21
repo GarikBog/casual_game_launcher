@@ -23,14 +23,14 @@ class GameButton : public ClickableObject {
 
 private:
 	
-	Game& game;
+	Game* game;
 
 public:
 
 	bool click(sf::Vector2i mouse_pos) override;
 
 	void start_game();
-	GameButton(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log,Game& game);
+	GameButton(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log,Game* game);
 
 };
 

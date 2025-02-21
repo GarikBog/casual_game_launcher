@@ -33,15 +33,16 @@
 #define SELECT_PANEL
 #endif // !SELECT_PANEL
 
+
 class GameLauncher : public Game {
 
 private:
 
 	std::string name = "GameLauncher";
 	std::vector<Game* > games;
-	std::pair<int, int> hidden_pos;
+	std::pair<int, int > hidden_pos;
 
-	int page = 0,max_page = 2;
+	int page = 0,max_page = 0;
 	Log log;
 	CloseButton* close;
 	NextPageButton* next_button;
@@ -49,6 +50,9 @@ private:
 	SelectPanel* select_panel;
 
 	std::vector<ClickableObject* > buttons;
+
+	void next_page();
+	void previous_page();
 
 	void draw(sf::RenderWindow& window);
 	void update();
