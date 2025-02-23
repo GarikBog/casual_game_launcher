@@ -138,6 +138,10 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="objects.cpp" />
     <ClCompile Include="select_panel.cpp" />
+    <ClCompile Include="Techies\mine_cell.cpp" />
+    <ClCompile Include="Techies\mine_field.cpp" />
+    <ClCompile Include="Techies\techies.cpp" />
+    <ClCompile Include="Techies\techiesObjects.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="openal32.dll" />
@@ -159,6 +163,10 @@
     <ClInclude Include="log.hpp" />
     <ClInclude Include="objects.hpp" />
     <ClInclude Include="select_panel.hpp" />
+    <ClInclude Include="Techies\mine_cell.hpp" />
+    <ClInclude Include="Techies\mine_field.hpp" />
+    <ClInclude Include="Techies\techies.hpp" />
+    <ClInclude Include="Techies\techiesObjects.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

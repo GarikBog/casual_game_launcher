@@ -73,6 +73,10 @@ void GameLauncher::process_request(Request request)
     if (request.data().first == "PREVIOUS_PAGE") {
         previous_page();
     }
+    if (request.data().first == "GAME_SELECTED") {
+        window->close();
+        select_panel->start();
+    }
 }
 
 void GameLauncher::start()
@@ -92,6 +96,7 @@ void GameLauncher::start()
                 for (int i = 0; i < buttons.size(); ++i) {
                     buttons[i]->click(mouse_pos);
                 }
+                select_panel->click(mouse_pos);
                 process_log();
             }
         }
@@ -128,24 +133,25 @@ GameLauncher::GameLauncher(unsigned int height)
 	previous_button = new PreviousPageButton({ indent_width_change_page_button,indent_height_change_page_button },
 		{ 258,700 },
 		{ width_change_page_button,height_change_page_button },
-		"change_page_button_left.png", log);
+		"tech/change_page_button_left.png", log);
 
 	next_button = new NextPageButton({ window_width - indent_width_change_page_button - width_change_page_button,indent_height_change_page_button },
 		{ 258,700 },
 		{ width_change_page_button,height_change_page_button },
-		"change_page_button_right.png", log);
+		"tech/change_page_button_right.png", log);
 
 	close = new CloseButton({window_width - indent_width_close_button - width_close_button,indent_height_close_button },
 		{ 165,165 },
 		{ width_close_button,height_close_button },
-		"close.png", log);
+		"tech/close.png", log);
 
     select_panel = new SelectPanel{ {indent_width_select_panel,indent_height_select_panel},
-        {100,100},
+        {1090,1040},
         {width_slect_panel,height_select_panel},
-        "test",
+        "select_panel/test.png",
         log,
-        hidden_pos};
+        hidden_pos,
+        height };
 
     buttons = { close,next_button,previous_button };
 }

@@ -5,3 +5,7 @@ C:\programming\cpp\casual_game_launcher\casual_game_launcher\log.cpp;C:\programm
 C:\programming\cpp\casual_game_launcher\casual_game_launcher\main.cpp;C:\programming\cpp\casual_game_launcher\casual_game_launcher\x64\Debug\main.obj
 C:\programming\cpp\casual_game_launcher\casual_game_launcher\objects.cpp;C:\programming\cpp\casual_game_launcher\casual_game_launcher\x64\Debug\objects.obj
 C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp;C:\programming\cpp\casual_game_launcher\casual_game_launcher\x64\Debug\select_panel.obj
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\Techies\mine_cell.cpp;C:\programming\cpp\casual_game_launcher\casual_game_launcher\x64\Debug\mine_cell.obj
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\Techies\mine_field.cpp;C:\programming\cpp\casual_game_launcher\casual_game_launcher\x64\Debug\mine_field.obj
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\Techies\techies.cpp;C:\programming\cpp\casual_game_launcher\casual_game_launcher\x64\Debug\techies.obj
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\Techies\techiesObjects.cpp;C:\programming\cpp\casual_game_launcher\casual_game_launcher\x64\Debug\techiesObjects.obj

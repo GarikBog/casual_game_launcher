@@ -66,29 +66,27 @@ public:
 class ClickableObject : public Object {
 
 protected:
-	int test;
 
 	Log& log;
 
 public:
 	virtual bool click(sf::Vector2i mouse_pos);
 
-	int get_test();
 
 	ClickableObject(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file,Log& log);
 };
-
 
 
 class CounterObject : public Object {
 
 protected:
 
+
 	sf::Sprite left_cell, middle_cell, right_cell;
 
 
 public:
-	
+
 	//Setters
 	void set_pos(std::pair<float, float> pos);
 	void set_pos(float x, float y);
@@ -113,3 +111,4 @@ public:
 
 
 };
+

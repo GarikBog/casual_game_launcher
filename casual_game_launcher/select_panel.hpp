@@ -9,6 +9,7 @@
 #endif // !BUTTONS
 
 
+
 class SelectPanel : public ClickableObject
 {
 private:
@@ -20,11 +21,15 @@ private:
 	GameButton* first_game, * second_game, * third_game, * fourth_game;
 	GameButton* hidden_game_button;
 
-	std::pair<float, float> pos_first_game_button, pos_second_game_button, pos_third_game_button, pos_fourth_game_button;
+	GameButton* selectad_game = nullptr;
+	
+	std::pair<float, float> hidden_pos ,pos_first_game_button, pos_second_game_button, pos_third_game_button, pos_fourth_game_button;
 
 	int page = 0;
 
 public:
+
+	void start();
 
 	void update();
 
@@ -38,5 +43,5 @@ public:
 
 	bool click(sf::Vector2i mouse_pos) override;
 
-	SelectPanel(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log,std::pair<int,int> hidden_pos);
+	SelectPanel(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log,std::pair<int,int> hidden_pos,unsigned int games_height);
 };

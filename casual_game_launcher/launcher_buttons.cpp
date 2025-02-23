@@ -13,7 +13,7 @@ bool GameButton::click(sf::Vector2i mouse_pos)
 {
 	if (!ClickableObject::click(mouse_pos)) return false;
 
-	log.add({ "BUTTON_PRESSED" });
+	log.add({ "GAME_SELECTED" });
 	return true;
 }
 
