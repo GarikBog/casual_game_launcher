@@ -131,6 +131,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Doppelgangers\card.cpp" />
+    <ClCompile Include="Doppelgangers\cardField.cpp" />
+    <ClCompile Include="Doppelgangers\doppengangers.cpp" />
+    <ClCompile Include="Doppelgangers\doppenlgangers_objects.cpp" />
     <ClCompile Include="launcher_buttons.cpp" />
     <ClCompile Include="game.cpp" />
     <ClCompile Include="launcher.cpp" />
@@ -157,6 +161,10 @@
     <None Include="sfml-window-d-2.dll" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Doppelgangers\card.hpp" />
+    <ClInclude Include="Doppelgangers\cardField.hpp" />
+    <ClInclude Include="Doppelgangers\doppengangers.hpp" />
+    <ClInclude Include="Doppelgangers\doppenlgangers_objects.hpp" />
     <ClInclude Include="launcher_buttons.hpp" />
     <ClInclude Include="game.hpp" />
     <ClInclude Include="launcher.hpp" />

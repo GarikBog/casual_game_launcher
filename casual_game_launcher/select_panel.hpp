@@ -44,4 +44,6 @@ public:
 	bool click(sf::Vector2i mouse_pos) override;
 
 	SelectPanel(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log,std::pair<int,int> hidden_pos,unsigned int games_height);
+
+	~SelectPanel();
 };

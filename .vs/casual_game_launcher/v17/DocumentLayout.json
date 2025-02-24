@@ -3,12 +3,60 @@
   "WorkspaceRootPath": "C:\\programming\\cpp\\casual_game_launcher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\launcher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\select_panel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\select_panel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\doppenlgangers_objects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Doppelgangers\\doppenlgangers_objects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\doppengangers.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Doppelgangers\\doppengangers.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\doppenlgangers_objects.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Doppelgangers\\doppenlgangers_objects.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\cardField.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Doppelgangers\\cardField.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\cardField.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Doppelgangers\\cardField.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\doppengangers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Doppelgangers\\doppengangers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Doppelgangers\\card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\card.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Doppelgangers\\card.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher_buttons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\launcher_buttons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\objects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\objects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\objects.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\objects.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher_buttons.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -19,36 +67,48 @@
       "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\launcher.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\objects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\objects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\select_panel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\select_panel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\select_panel.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\select_panel.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\launcher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\log.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\log.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\objects.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\objects.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\select_panel.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\select_panel.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techies.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Techies\\techies.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techies.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Techies\\techies.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_field.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Techies\\mine_field.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_field.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Techies\\mine_field.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_cell.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Techies\\mine_cell.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_cell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Techies\\mine_cell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\openal32.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
@@ -63,35 +123,10 @@
       "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Techies\\techiesObjects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techies.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Techies\\techies.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techies.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Techies\\techies.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_field.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Techies\\mine_field.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_cell.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Techies\\mine_cell.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_field.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Techies\\mine_field.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_cell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\Techies\\mine_cell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C59964DB-1493-480A-B317-82C16851CA0D}|casual_game_launcher\\casual_game_launcher.vcxproj|solutionrelative:casual_game_launcher\\game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\include\\utility||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\include\\__msvc_filebuf.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -101,7 +136,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -125,7 +160,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "doppenlgangers_objects.hpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\doppenlgangers_objects.hpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\Doppelgangers\\doppenlgangers_objects.hpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\doppenlgangers_objects.hpp",
+              "RelativeToolTip": "casual_game_launcher\\Doppelgangers\\doppenlgangers_objects.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-23T14:12:14.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "objects.cpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\objects.cpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\objects.cpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\objects.cpp",
+              "RelativeToolTip": "casual_game_launcher\\objects.cpp",
+              "ViewState": "AgIAAGQBAAAAAAAAAAAuwH8BAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-10T14:22:06.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launcher_buttons.hpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher_buttons.hpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\launcher_buttons.hpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher_buttons.hpp",
+              "RelativeToolTip": "casual_game_launcher\\launcher_buttons.hpp",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwCsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-12T09:42:02.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launcher_buttons.cpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher_buttons.cpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\launcher_buttons.cpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher_buttons.cpp",
+              "RelativeToolTip": "casual_game_launcher\\launcher_buttons.cpp",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAEwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-12T09:45:44.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "launcher.cpp",
               "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher.cpp",
               "RelativeDocumentMoniker": "casual_game_launcher\\launcher.cpp",
@@ -133,260 +217,11 @@
               "RelativeToolTip": "casual_game_launcher\\launcher.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-10T14:24:04.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launcher_buttons.cpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher_buttons.cpp",
-              "RelativeDocumentMoniker": "casual_game_launcher\\launcher_buttons.cpp",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher_buttons.cpp",
-              "RelativeToolTip": "casual_game_launcher\\launcher_buttons.cpp",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAEwA8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-12T09:45:44.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T14:24:04.943Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "objects.cpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\objects.cpp",
-              "RelativeDocumentMoniker": "casual_game_launcher\\objects.cpp",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\objects.cpp",
-              "RelativeToolTip": "casual_game_launcher\\objects.cpp",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAEwJUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-10T14:22:06.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "log.cpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\log.cpp",
-              "RelativeDocumentMoniker": "casual_game_launcher\\log.cpp",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\log.cpp",
-              "RelativeToolTip": "casual_game_launcher\\log.cpp",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAswCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-18T13:43:09.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "select_panel.cpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\select_panel.cpp",
-              "RelativeDocumentMoniker": "casual_game_launcher\\select_panel.cpp",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\select_panel.cpp",
-              "RelativeToolTip": "casual_game_launcher\\select_panel.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAGYAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-18T13:12:07.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launcher_buttons.hpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher_buttons.hpp",
-              "RelativeDocumentMoniker": "casual_game_launcher\\launcher_buttons.hpp",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher_buttons.hpp",
-              "RelativeToolTip": "casual_game_launcher\\launcher_buttons.hpp",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-12T09:42:02.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "select_panel.hpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\select_panel.hpp",
-              "RelativeDocumentMoniker": "casual_game_launcher\\select_panel.hpp",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\select_panel.hpp",
-              "RelativeToolTip": "casual_game_launcher\\select_panel.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-18T13:12:16.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\main.cpp",
-              "RelativeDocumentMoniker": "casual_game_launcher\\main.cpp",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\main.cpp",
-              "RelativeToolTip": "casual_game_launcher\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-10T14:22:05.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "openal32.dll",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\openal32.dll",
-              "RelativeDocumentMoniker": "casual_game_launcher\\openal32.dll",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\openal32.dll",
-              "RelativeToolTip": "casual_game_launcher\\openal32.dll",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
-              "WhenOpened": "2025-02-23T07:56:15.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "techiesObjects.hpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techiesObjects.hpp",
-              "RelativeDocumentMoniker": "casual_game_launcher\\Techies\\techiesObjects.hpp",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techiesObjects.hpp",
-              "RelativeToolTip": "casual_game_launcher\\Techies\\techiesObjects.hpp",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-23T07:05:09.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "techiesObjects.cpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techiesObjects.cpp",
-              "RelativeDocumentMoniker": "casual_game_launcher\\Techies\\techiesObjects.cpp",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techiesObjects.cpp",
-              "RelativeToolTip": "casual_game_launcher\\Techies\\techiesObjects.cpp",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-23T07:05:37.763Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "techies.cpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techies.cpp",
-              "RelativeDocumentMoniker": "casual_game_launcher\\Techies\\techies.cpp",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techies.cpp",
-              "RelativeToolTip": "casual_game_launcher\\Techies\\techies.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-23T07:06:04.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "techies.hpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techies.hpp",
-              "RelativeDocumentMoniker": "casual_game_launcher\\Techies\\techies.hpp",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techies.hpp",
-              "RelativeToolTip": "casual_game_launcher\\Techies\\techies.hpp",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-23T07:05:45.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "mine_field.cpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_field.cpp",
-              "RelativeDocumentMoniker": "casual_game_launcher\\Techies\\mine_field.cpp",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_field.cpp",
-              "RelativeToolTip": "casual_game_launcher\\Techies\\mine_field.cpp",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-23T07:06:02.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "mine_cell.hpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_cell.hpp",
-              "RelativeDocumentMoniker": "casual_game_launcher\\Techies\\mine_cell.hpp",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_cell.hpp",
-              "RelativeToolTip": "casual_game_launcher\\Techies\\mine_cell.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-23T07:06:13.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "game.cpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\game.cpp",
-              "RelativeDocumentMoniker": "casual_game_launcher\\game.cpp",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\game.cpp",
-              "RelativeToolTip": "casual_game_launcher\\game.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-12T09:43:48.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "launcher.hpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher.hpp",
-              "RelativeDocumentMoniker": "casual_game_launcher\\launcher.hpp",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher.hpp",
-              "RelativeToolTip": "casual_game_launcher\\launcher.hpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-10T14:24:16.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "objects.hpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\objects.hpp",
-              "RelativeDocumentMoniker": "casual_game_launcher\\objects.hpp",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\objects.hpp",
-              "RelativeToolTip": "casual_game_launcher\\objects.hpp",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-12T09:43:10.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "log.hpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\log.hpp",
-              "RelativeDocumentMoniker": "casual_game_launcher\\log.hpp",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\log.hpp",
-              "RelativeToolTip": "casual_game_launcher\\log.hpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-12T09:43:28.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "mine_field.hpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_field.hpp",
-              "RelativeDocumentMoniker": "casual_game_launcher\\Techies\\mine_field.hpp",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_field.hpp",
-              "RelativeToolTip": "casual_game_launcher\\Techies\\mine_field.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-23T07:06:05.443Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "mine_cell.cpp",
-              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_cell.cpp",
-              "RelativeDocumentMoniker": "casual_game_launcher\\Techies\\mine_cell.cpp",
-              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_cell.cpp",
-              "RelativeToolTip": "casual_game_launcher\\Techies\\mine_cell.cpp",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-23T07:06:10.261Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "game.hpp",
               "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\game.hpp",
               "RelativeDocumentMoniker": "casual_game_launcher\\game.hpp",
@@ -398,7 +233,309 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "doppengangers.hpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\doppengangers.hpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\Doppelgangers\\doppengangers.hpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\doppengangers.hpp",
+              "RelativeToolTip": "casual_game_launcher\\Doppelgangers\\doppengangers.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-23T14:11:13.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "doppenlgangers_objects.cpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\doppenlgangers_objects.cpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\Doppelgangers\\doppenlgangers_objects.cpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\doppenlgangers_objects.cpp",
+              "RelativeToolTip": "casual_game_launcher\\Doppelgangers\\doppenlgangers_objects.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-23T14:12:10.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "select_panel.cpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\select_panel.cpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\select_panel.cpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\select_panel.cpp",
+              "RelativeToolTip": "casual_game_launcher\\select_panel.cpp",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-18T13:12:07.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "doppengangers.cpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\doppengangers.cpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\Doppelgangers\\doppengangers.cpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\doppengangers.cpp",
+              "RelativeToolTip": "casual_game_launcher\\Doppelgangers\\doppengangers.cpp",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAawGQAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-23T14:12:02.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "game.cpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\game.cpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\game.cpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\game.cpp",
+              "RelativeToolTip": "casual_game_launcher\\game.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-12T09:43:48.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "objects.hpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\objects.hpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\objects.hpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\objects.hpp",
+              "RelativeToolTip": "casual_game_launcher\\objects.hpp",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-12T09:43:10.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "cardField.hpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\cardField.hpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\Doppelgangers\\cardField.hpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\cardField.hpp",
+              "RelativeToolTip": "casual_game_launcher\\Doppelgangers\\cardField.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-23T14:11:52.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "card.hpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\card.hpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\Doppelgangers\\card.hpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\card.hpp",
+              "RelativeToolTip": "casual_game_launcher\\Doppelgangers\\card.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-23T14:11:44.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "cardField.cpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\cardField.cpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\Doppelgangers\\cardField.cpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\cardField.cpp",
+              "RelativeToolTip": "casual_game_launcher\\Doppelgangers\\cardField.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-23T14:12:03.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "card.cpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\card.cpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\Doppelgangers\\card.cpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Doppelgangers\\card.cpp",
+              "RelativeToolTip": "casual_game_launcher\\Doppelgangers\\card.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-23T14:11:39.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "launcher.hpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher.hpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\launcher.hpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\launcher.hpp",
+              "RelativeToolTip": "casual_game_launcher\\launcher.hpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-10T14:24:16.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "log.hpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\log.hpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\log.hpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\log.hpp",
+              "RelativeToolTip": "casual_game_launcher\\log.hpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-12T09:43:28.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\main.cpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\main.cpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\main.cpp",
+              "RelativeToolTip": "casual_game_launcher\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-10T14:22:05.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "select_panel.hpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\select_panel.hpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\select_panel.hpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\select_panel.hpp",
+              "RelativeToolTip": "casual_game_launcher\\select_panel.hpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-18T13:12:16.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "__msvc_filebuf.hpp",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\include\\__msvc_filebuf.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\include\\__msvc_filebuf.hpp",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\include\\__msvc_filebuf.hpp",
+              "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\include\\__msvc_filebuf.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-23T14:10:58.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "openal32.dll",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\openal32.dll",
+              "RelativeDocumentMoniker": "casual_game_launcher\\openal32.dll",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\openal32.dll",
+              "RelativeToolTip": "casual_game_launcher\\openal32.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-02-23T07:56:15.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "techiesObjects.hpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techiesObjects.hpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\Techies\\techiesObjects.hpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techiesObjects.hpp",
+              "RelativeToolTip": "casual_game_launcher\\Techies\\techiesObjects.hpp",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-23T07:05:09.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "techiesObjects.cpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techiesObjects.cpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\Techies\\techiesObjects.cpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techiesObjects.cpp",
+              "RelativeToolTip": "casual_game_launcher\\Techies\\techiesObjects.cpp",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-23T07:05:37.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "techies.cpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techies.cpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\Techies\\techies.cpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techies.cpp",
+              "RelativeToolTip": "casual_game_launcher\\Techies\\techies.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-23T07:06:04.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "techies.hpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techies.hpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\Techies\\techies.hpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\techies.hpp",
+              "RelativeToolTip": "casual_game_launcher\\Techies\\techies.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-23T07:05:45.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "mine_field.cpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_field.cpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\Techies\\mine_field.cpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_field.cpp",
+              "RelativeToolTip": "casual_game_launcher\\Techies\\mine_field.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-23T07:06:02.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "mine_cell.cpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_cell.cpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\Techies\\mine_cell.cpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_cell.cpp",
+              "RelativeToolTip": "casual_game_launcher\\Techies\\mine_cell.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-23T07:06:10.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "mine_cell.hpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_cell.hpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\Techies\\mine_cell.hpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_cell.hpp",
+              "RelativeToolTip": "casual_game_launcher\\Techies\\mine_cell.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-23T07:06:13.549Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 22,
+              "Title": "mine_field.hpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_field.hpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\Techies\\mine_field.hpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\Techies\\mine_field.hpp",
+              "RelativeToolTip": "casual_game_launcher\\Techies\\mine_field.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-23T07:06:05.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "log.cpp",
+              "DocumentMoniker": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\log.cpp",
+              "RelativeDocumentMoniker": "casual_game_launcher\\log.cpp",
+              "ToolTip": "C:\\programming\\cpp\\casual_game_launcher\\casual_game_launcher\\log.cpp",
+              "RelativeToolTip": "casual_game_launcher\\log.cpp",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-18T13:43:09.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "utility",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\include\\utility",
               "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.42.34433\\include\\utility",

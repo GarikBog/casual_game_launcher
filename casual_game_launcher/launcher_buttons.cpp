@@ -31,25 +31,6 @@ GameButton::GameButton(std::pair<float, float> pos, std::pair<int, int> size, st
 
 
 
-// CLOSE BUTTON
-bool CloseButton::click(sf::Vector2i mouse_pos)
-{
-	if (!ClickableObject::click(mouse_pos))  return false;
-
-	log.add({ "CLOSE" });
-	return true;
-}
-
-
-CloseButton::CloseButton(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log) :
-	ClickableObject(pos, size, scale, texture_file, log)
-{}
-
-
-
-// CLOSE BUTTON
-
-
 // NEXT PAGE BUTTON
 bool NextPageButton::click(sf::Vector2i mouse_pos)
 {

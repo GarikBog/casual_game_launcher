@@ -13,6 +13,11 @@
 #define TECHIES
 #endif // !TECHIES
 
+#ifndef DOPPELGANGERS
+#include"Doppelgangers/doppengangers.hpp"
+#define DOPPELGANGERS
+#endif // !DOPPELGANGERS
+
 
 void SelectPanel::start()
 {
@@ -114,28 +119,33 @@ SelectPanel::SelectPanel(std::pair<float, float> pos, std::pair<int, int> size, 
 	ClickableObject(pos,size,scale,texture_file,log)
 {
 	this->hidden_pos = hidden_pos;
+
 	hidden_game_button = new GameButton(hidden_pos, { 0,0 }, { 0,0 }, texture_file, log, nullptr);
 
 	Techies* techies_game = new Techies(games_height);
 	
-	float	left_pos = pos.second + scale.first / 21.8,
+	Doppelgagners* doppelgangers = new Doppelgagners(games_height);
+	
+
+	float	left_pos = pos.first + scale.first / 21.8,
 		right_pos = pos.first +scale.first / 1.83,
-		hight_pos = pos.first +scale.second / 20.8,
+		hight_pos = pos.second +scale.second / 20.8,
 		low_pos = pos.second + scale.second / 1.82;
 
 	std::pair<int,int> game_button_size = { scale.first/2.44,scale.second/2.47 };
 
 
-	pos_first_game_button = { hight_pos,left_pos };
+	pos_first_game_button = { left_pos,hight_pos };
 
-	pos_second_game_button = { hight_pos,right_pos };
+	pos_second_game_button = { right_pos,hight_pos };
 
-	pos_third_game_button = { low_pos,left_pos };
+	pos_third_game_button = { left_pos,low_pos };
 
-	pos_fourth_game_button = { low_pos,right_pos };
+	pos_fourth_game_button = { right_pos,low_pos };
 	 
 
 	game_buttons.push_back(new GameButton(hidden_pos, { 500,500 }, game_button_size, "logo/Techies.png", log, techies_game));
+	game_buttons.push_back(new GameButton(hidden_pos, { 500,500 }, game_button_size, "logo/Doppelgangers.png", log, doppelgangers));
 
 	first_game = hidden_game_button;
 	second_game = hidden_game_button;
@@ -143,6 +153,14 @@ SelectPanel::SelectPanel(std::pair<float, float> pos, std::pair<int, int> size, 
 	fourth_game = hidden_game_button;
 
 	update();
+}
+
+SelectPanel::~SelectPanel()
+{
+	for (int i = 0; i < game_buttons.size(); ++i) {
+		delete game_buttons[i];
+	}
+	delete hidden_game_button;
 }
 
 
