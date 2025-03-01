@@ -20,8 +20,7 @@
 #define LAUNCHER
 #endif // !LAUNCHER
 
-int main()
-{
+int main(){
 
 	GameLauncher launcher(1450);
 

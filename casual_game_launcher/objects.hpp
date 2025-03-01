@@ -122,3 +122,32 @@ public:
 
 };
 //CLOSE BUTTON
+
+
+// Base_counter
+class Base_counter : public CounterObject {
+private:
+
+	int score = 0;
+	bool score_change = false;
+public:
+
+
+	//Setters
+
+	void set_score(unsigned int count);
+
+	//Getters
+	int get_score() const;
+
+	//Tech
+	void add_point();
+	void remove_point();
+	void reset();
+	void update() override;
+
+
+	Base_counter(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file);
+
+};
+// Base_counter

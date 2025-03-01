@@ -18,12 +18,23 @@
 #define DOPPELGANGERS
 #endif // !DOPPELGANGERS
 
+#ifndef TICTACTOE
+#include "TicTacToe/TicTacToe.hpp"
+#define TICTACTOE
+#endif // !TICTACTOE 
 
 void SelectPanel::start()
 {
-	if (selectad_game == nullptr) return;
+	if (selected_game == nullptr) return;
 
-	selectad_game->start_game();
+	for (GameButton* game : game_buttons) {
+		if (game != selected_game) {
+			delete game;
+		}
+
+	}
+	game_buttons.clear();
+	selected_game->start_game();
 }
 
 void SelectPanel::update()
@@ -96,19 +107,19 @@ bool SelectPanel::click(sf::Vector2i mouse_pos)
 	if (!ClickableObject::click(mouse_pos)) return false;
 
 	if (first_game->click(mouse_pos)) {
-		selectad_game = first_game;
+		selected_game = first_game;
 		return true;
 	}
 	if (second_game->click(mouse_pos)){
-		selectad_game = second_game;
+		selected_game = second_game;
 		return true;
 	}
 	if (third_game->click(mouse_pos)) {
-		selectad_game = third_game;
+		selected_game = third_game;
 		return true;
 	}
 	if (fourth_game->click(mouse_pos)) {
-		selectad_game = fourth_game;
+		selected_game = fourth_game;
 		return true;
 	}
 
@@ -126,6 +137,7 @@ SelectPanel::SelectPanel(std::pair<float, float> pos, std::pair<int, int> size, 
 	
 	Doppelgagners* doppelgangers = new Doppelgagners(games_height);
 	
+	TicTacToe* tic_tac_toe = new TicTacToe(games_height);
 
 	float	left_pos = pos.first + scale.first / 21.8,
 		right_pos = pos.first +scale.first / 1.83,
@@ -146,6 +158,7 @@ SelectPanel::SelectPanel(std::pair<float, float> pos, std::pair<int, int> size, 
 
 	game_buttons.push_back(new GameButton(hidden_pos, { 500,500 }, game_button_size, "logo/Techies.png", log, techies_game));
 	game_buttons.push_back(new GameButton(hidden_pos, { 500,500 }, game_button_size, "logo/Doppelgangers.png", log, doppelgangers));
+	game_buttons.push_back(new GameButton(hidden_pos, { 500,500 }, game_button_size, "logo/TicTacToe.png", log, tic_tac_toe));
 
 	first_game = hidden_game_button;
 	second_game = hidden_game_button;

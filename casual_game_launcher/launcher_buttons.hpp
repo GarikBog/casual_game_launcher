@@ -31,7 +31,7 @@ public:
 
 	void start_game();
 	GameButton(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log,Game* game);
-
+	~GameButton();
 };
 
 

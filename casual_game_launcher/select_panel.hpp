@@ -21,7 +21,7 @@ private:
 	GameButton* first_game, * second_game, * third_game, * fourth_game;
 	GameButton* hidden_game_button;
 
-	GameButton* selectad_game = nullptr;
+	GameButton* selected_game = nullptr;
 	
 	std::pair<float, float> hidden_pos ,pos_first_game_button, pos_second_game_button, pos_third_game_button, pos_fourth_game_button;
 

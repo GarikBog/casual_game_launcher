@@ -221,7 +221,5 @@ Techies::~Techies()
 	delete timer;
 	delete difficulty_button;
 	delete mine_counter;
-	delete background;
 	delete field;
-	delete window;
 }

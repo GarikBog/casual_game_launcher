@@ -26,6 +26,10 @@ GameButton::GameButton(std::pair<float, float> pos, std::pair<int, int> size, st
 	ClickableObject(pos, size, scale, texture_file, log),
 	game(game)
 {}
+GameButton::~GameButton()
+{
+	delete game;
+}
 // GAME BUTTON
 
 

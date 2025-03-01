@@ -165,6 +165,11 @@ Object::Object(std::pair<float, float> pos,std::pair<int,int> size, std::pair<in
 //ClickableObject
 bool ClickableObject::click(sf::Vector2i mouse_pos)
 {
+	//std::cout << "\n\tMOUSE_POS\n" << "\t " << mouse_pos.x<<' '<<mouse_pos.y;
+	//std::cout << "\nX: " << x;
+	//std::cout << "\nW: " << x + sprite.getGlobalBounds().width;
+	//std::cout << "\nY: " << y;
+	//std::cout << "\nH: " << y + sprite.getGlobalBounds().height;
 
 	return (
 		mouse_pos.x > x &&
@@ -386,3 +391,65 @@ CloseButton::CloseButton(std::pair<float, float> pos, std::pair<int, int> size, 
 
 }
 // Close button
+
+
+void Base_counter::set_score(unsigned int count)
+{
+	score = count;
+	score_change = true;
+}
+
+int Base_counter::get_score() const
+{
+	return score;
+}
+
+void Base_counter::add_point()
+{
+	++score;
+	score_change = true;
+
+}
+
+void Base_counter::remove_point()
+{
+
+	--score;
+	score_change = true;
+
+
+
+}
+
+void Base_counter::reset()
+{
+	score = 0;
+	right_cell.setTextureRect({ 60 ,0,20,35 });
+	middle_cell.setTextureRect({ 60 ,0,20,35 });
+	left_cell.setTextureRect({ 60 ,0,20,35 });
+}
+
+void Base_counter::update()
+{
+
+	if (score > 998 || !score_change || score < 0) return;
+	//std::cout << point_change << '\t' << "CHANGE!\n";
+	score_change = false;
+
+	right_cell.setTextureRect({ 60 + (score % 10) * 20,0,20,35 });
+
+	if (score < 9) return;
+
+	middle_cell.setTextureRect({ 60 + ((score / 10) % 10) * 20,0,20,35 });
+
+	if (score < 99) return;
+
+	left_cell.setTextureRect({ 60 + ((score / 100) % 10) * 20,0,20,35 });
+
+
+}
+
+Base_counter::Base_counter(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file) :
+	CounterObject(pos, size, scale, texture_file)
+{
+}

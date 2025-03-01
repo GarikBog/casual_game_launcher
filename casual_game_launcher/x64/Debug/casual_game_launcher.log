@@ -1,99 +1,8 @@
-﻿  doppengangers.cpp
-C:\programming\cpp\casual_game_launcher\casual_game_launcher\Doppelgangers\doppengangers.cpp(98,31): warning C4244: =: преобразование "double" в "unsigned int", возможна потеря данных
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244: инициализация: преобразование "_Ty" в "_Ty1", возможна потеря данных
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         with
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         [
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:             _Ty=int
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         ]
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         and
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         [
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:             _Ty1=float
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         ]
-  (компиляция исходного файла "Doppelgangers/doppengangers.cpp")
-      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16):
-      контекст создания экземпляра шаблона (сначала самый старый)
-          C:\programming\cpp\casual_game_launcher\casual_game_launcher\Doppelgangers\doppengangers.cpp(101,25):
-          выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<float,float>::pair<int,double,0>(_Other1 &&,_Other2 &&) noexcept"
-          with
-          [
-              _Other1=int,
-              _Other2=double
-          ]
-              C:\programming\cpp\casual_game_launcher\casual_game_launcher\Doppelgangers\doppengangers.cpp(101,8):
-              см. первую ссылку на std::pair<float,float>::pair "Doppelgagners::Doppelgagners"
-  
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244: инициализация: преобразование "_Ty" в "_Ty2", возможна потеря данных
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         with
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         [
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:             _Ty=double
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         ]
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         and
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         [
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:             _Ty2=float
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         ]
-  (компиляция исходного файла "Doppelgangers/doppengangers.cpp")
-  
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244: инициализация: преобразование "_Ty" в "_Ty2", возможна потеря данных
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         with
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         [
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:             _Ty=double
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         ]
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         and
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         [
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:             _Ty2=int
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         ]
-  (компиляция исходного файла "Doppelgangers/doppengangers.cpp")
-      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54):
-      контекст создания экземпляра шаблона (сначала самый старый)
-          C:\programming\cpp\casual_game_launcher\casual_game_launcher\Doppelgangers\doppengangers.cpp(101,66):
-          выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<int,int>::pair<unsigned int&,double,0>(_Other1,_Other2 &&) noexcept"
-          with
-          [
-              _Other1=unsigned int &,
-              _Other2=double
-          ]
-              C:\programming\cpp\casual_game_launcher\casual_game_launcher\Doppelgangers\doppengangers.cpp(101,8):
-              см. первую ссылку на std::pair<int,int>::pair "Doppelgagners::Doppelgagners"
-  
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244: инициализация: преобразование "_Ty" в "_Ty2", возможна потеря данных
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         with
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         [
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:             _Ty=int
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         ]
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         and
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         [
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:             _Ty2=float
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         ]
-  (компиляция исходного файла "Doppelgangers/doppengangers.cpp")
-  
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244: инициализация: преобразование "_Ty" в "_Ty1", возможна потеря данных
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         with
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         [
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:             _Ty=double
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         ]
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         and
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         [
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:             _Ty1=float
-C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         ]
-  (компиляция исходного файла "Doppelgangers/doppengangers.cpp")
-      C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16):
-      контекст создания экземпляра шаблона (сначала самый старый)
-          C:\programming\cpp\casual_game_launcher\casual_game_launcher\Doppelgangers\doppengangers.cpp(106,37):
-          выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<float,float>::pair<double,int,0>(_Other1 &&,_Other2 &&) noexcept"
-          with
-          [
-              _Other1=double,
-              _Other2=int
-          ]
-              C:\programming\cpp\casual_game_launcher\casual_game_launcher\Doppelgangers\doppengangers.cpp(106,17):
-              см. первую ссылку на std::pair<float,float>::pair "Doppelgagners::Doppelgagners"
-  
-  doppenlgangers_objects.cpp
-  select_panel.cpp
-C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(130,17): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(131,13): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(132,13): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(133,11): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+﻿  select_panel.cpp
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(142,17): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(143,13): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(144,13): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(145,11): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(386,24): warning C4244: =: преобразование "const _Ty1" в "_Ty1", возможна потеря данных
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(386,24): warning C4244:         with
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(386,24): warning C4244:         [
@@ -106,9 +15,9 @@ C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.3
   (компиляция исходного файла "select_panel.cpp")
       C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(386,24):
       контекст создания экземпляра шаблона (сначала самый старый)
-          C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(121,19):
+          C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(132,19):
           выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<float,float> &std::pair<float,float>::operator =<int,int,0>(const std::pair<int,int> &) noexcept"
-              C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(121,19):
+              C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(132,19):
               см. первую ссылку на std::pair<float,float>::operator = "SelectPanel::SelectPanel"
   
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(387,24): warning C4244: =: преобразование "const _Ty2" в "_Ty2", возможна потеря данных
@@ -134,9 +43,9 @@ C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.3
   (компиляция исходного файла "select_panel.cpp")
       C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,16):
       контекст создания экземпляра шаблона (сначала самый старый)
-          C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(121,21):
+          C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(132,21):
           выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<float,float>::pair<int,int,0>(const std::pair<int,int> &) noexcept"
-              C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(123,21):
+              C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(134,21):
               см. первую ссылку на std::pair<float,float>::pair "SelectPanel::SelectPanel"
   
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(285,38): warning C4244: инициализация: преобразование "const _Ty2" в "_Ty2", возможна потеря данных
@@ -162,14 +71,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.3
   (компиляция исходного файла "select_panel.cpp")
       C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16):
       контекст создания экземпляра шаблона (сначала самый старый)
-          C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(135,40):
+          C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(147,40):
           выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<int,int>::pair<double,double,0>(_Other1 &&,_Other2 &&) noexcept"
           with
           [
               _Other1=double,
               _Other2=double
           ]
-              C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(135,40):
+              C:\programming\cpp\casual_game_launcher\casual_game_launcher\select_panel.cpp(147,40):
               см. первую ссылку на std::pair<int,int>::pair "SelectPanel::SelectPanel"
   
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244: инициализация: преобразование "_Ty" в "_Ty2", возможна потеря данных
@@ -183,5 +92,4 @@ C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.3
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         ]
   (компиляция исходного файла "select_panel.cpp")
   
-  Создание кода...
   casual_game_launcher.vcxproj -> C:\programming\cpp\casual_game_launcher\x64\Debug\casual_game_launcher.exe

@@ -146,6 +146,8 @@
     <ClCompile Include="Techies\mine_field.cpp" />
     <ClCompile Include="Techies\techies.cpp" />
     <ClCompile Include="Techies\techiesObjects.cpp" />
+    <ClCompile Include="TicTacToe\TicTacToe.cpp" />
+    <ClCompile Include="TicTacToe\TTT_Objects.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="openal32.dll" />
@@ -175,6 +177,8 @@
     <ClInclude Include="Techies\mine_field.hpp" />
     <ClInclude Include="Techies\techies.hpp" />
     <ClInclude Include="Techies\techiesObjects.hpp" />
+    <ClInclude Include="TicTacToe\TicTacToe.hpp" />
+    <ClInclude Include="TicTacToe\TTT_Objects.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -114,6 +114,4 @@ Doppelgagners::~Doppelgagners()
 	delete close_button;
 	delete point_counter;
 	delete field;
-	delete background;
-	delete window;
 }
